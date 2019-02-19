@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
             crossorigin="anonymous"></script>
-    <link href="/assets/css/style.css" rel="stylesheet" type="style/css">  
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 
 </head>
-<body>
+<body>    
     <div class="container-fluid header text-center">
         <div class="row py-5">
             <div class= "col-md-12 ">
@@ -43,26 +43,27 @@
 <div class= "container gemsSection">
     <div class="row">
         <div class= "col-md-3 gemPic">
-                <img src="assets/images/diego-maradona-1986.jpg" alt="messi" id="ruby" height= 150px width= 200px class= "gemPic">
+                <img src="assets/images/diego-maradona-1986.jpg" alt="messi" id="ruby" class= "gemPic">
         </div>
         <div class= "col-md-3 gemPic">
-            <img src="assets/images/messi.jpg" alt="messi" id="gem" height= 150px width= 200px class= "gemPic">
+            <img src="assets/images/messi.jpg" alt="messi" id="gem" class= "gemPic">
         </div>
         <div class= "col-md-3 gemPic">
-            <img src="assets/images/batistuta.jpg" alt="messi" id="diamond" height= 150px width= 200px class= "gemPic">
+            <img src="assets/images/batistuta.jpg" alt="messi" id="diamond" class= "gemPic">
         </div>
         <div class= "col-md-3 gemPic">
-                <img src="assets/images/aguero.jpg" alt="messi" id="pearl" height= 150px width= 200px class= "gemPic">
+                <img src="assets/images/aguero.jpg" alt="messi" id="pearl" class= "gemPic">
         </div>
     </div>
 </div>
 <div class="container gameMath">
     <div class="row">
         <div class= "col-md-4 py-5">
-            <h3>player's math from clicking pics<span id="mathMachine"></span></h3>
+            <h3>Player's Guess : <span id="mathMachine"></span></h3>
         </div>
         <div class= "col-md-4 py-5">
-            <h5>Total result</h5>
+            <h3>Total result: <span id="result"></span></h3>
+            <h3> <span id="resultText"></span></h3>
         </div>
     </div>
 </div>

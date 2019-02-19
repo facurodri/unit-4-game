@@ -1,8 +1,11 @@
 .gemPic {
-    height: 200px;
+    height: 150px;
     width: 200px;
 }
 h2 {
     color: red;
-    background-color: red;
+}
+body {
+    margin: 0%;
+    background-image: url(/assets/images/soccerField.jpg);
 }
