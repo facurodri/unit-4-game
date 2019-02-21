@@ -8,6 +8,19 @@ var gem = 0;
 var diamond = 0;
 var pearl = 0;
 
+// var cheer = document.createElement("audio");
+// cheer.setAttribute("src", "assets/WinCheer.mp3");
+
+// var crowdBoo = document.createElement("audio");
+// crowdBoo.setAttribute("src", "assets/CrowdBoo.mp3");
+
+function playMusic() {
+    document.getElementById("winCheers").play();
+}
+function playMusic2() {
+    document.getElementById("crowdBOO").play();
+}
+
 //generates random number for gems in a function
 function gemFoo (){
     ruby = Math.floor((Math.random() * 12) +1);
@@ -57,12 +70,14 @@ function checkPoints() {
       $("#result").text(mathShow);
       $("#resultText").text("Congratulations You win!");
       $("#wins").text(wins);
+      playMusic();
       resetGame();
     } else if (mathShow > computerRandom) {
       loses ++;
       $("#result").text(mathShow);
-      $("#resultText").text("Congratulations You Lose!");
+      $("#resultText").text("Oh no! You team Lost!");
       $("#loses").text(loses);
+      playMusic2();
       resetGame();
   }
 }

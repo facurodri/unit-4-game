@@ -1,11 +1,26 @@
 .gemPic {
-    height: 150px;
-    width: 200px;
+    height: 100%;
+    width: 100%     ;
+    border: 2px solid gold;
 }
-h2 {
-    color: red;
+ h1, h2, h3 {
+    color:gold;
+    font-family: Arial, sans-serif; 
 }
 body {
     margin: 0%;
-    background-image: url(/assets/images/soccerField.jpg);
+    background-image: url(../images/soccerField2.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+h5 {
+ font-style: italic;
+ color:gold;
+ font-family: Arial, sans-serif; 
+ margin-bottom: 20px;
+}
+
+#resultText {
+    
 }
