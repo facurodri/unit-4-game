@@ -75,7 +75,7 @@ function checkPoints() {
     } else if (mathShow > computerRandom) {
       loses ++;
       $("#result").text(mathShow);
-      $("#resultText").text("Oh no! You team Lost!");
+      $("#resultText").text("Oh no! Your team Lost!");
       $("#loses").text(loses);
       playMusic2();
       resetGame();
